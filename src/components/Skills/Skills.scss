@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.skills {
+  background-color: #000;
+  &-block {
+    font-family: 'Inter', serif;
+    color: #fff;
+    padding-bottom: 10px;
+    &__title {
+      font-family: 'Merriweather', serif;
+      letter-spacing: 2px;
+      color: #BDAE82;
+      margin: 0;
+      text-align: center;
+      padding-top: 90px;
+      font-size: 40px;
+    }
+    &__info {
+      margin: 70px 20px;
+      display: flex;
+      text-align: center;
+      &-item {
+        &__icon {
+          height: auto;
+          margin-bottom: 20px;
+        }
+        &__title {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+        &__description {
+          padding: 15px;
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}

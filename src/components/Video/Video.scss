@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.video {
+  background-color: #000;
+  text-align: center;
+  &-block {
+    &__title {
+      padding-top: 70px;
+      font-family: "Merriweather", serif;
+      letter-spacing: 2px;
+      color: #bdae82;
+      margin: 0;
+      padding-bottom: 50px;
+      font-size: 40px;
+    }
+    &__video {
+      margin: 0 50px;
+      overflow: hidden;
+      position: relative;
+      &-image {
+        width: 100%;
+      }
+      &-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 75px;
+        &:hover {
+          opacity: 0.5;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.contacts {
+  background-repeat: no-repeat, repeat;
+  background-image: url("../../../public/assets/contacts/background.jpg");
+  background-size: 100%;
+  padding-bottom: 85px;
+  &-block {
+    &__form {
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+      align-items: flex-end;
+      &-title {
+        font-family: "Merriweather", serif;
+        padding: 70px 0 30px;
+        letter-spacing: 2px;
+        color: #bdae82;
+        margin: 0;
+        margin-right: 123px;
+        font-size: 40px;
+      }
+      &-input {
+        background: none;
+        margin: 7px;
+        margin-right: 20px;
+        text-align: left;
+        width: 330px;
+        height: 25px;
+        color: #bdae82;
+        padding-left: 10px;
+        font-size: 16px;
+        &::-webkit-input-placeholder {color:#bdae82;}
+        border: 1px solid #bdae82;
+        &:last-of-type {
+					width: 330px;
+          height: 55px;
+				}
+      }
+      &-btn {
+        background: #bdae82;
+        border: none;
+        padding: 15px 30px;
+        margin: 25px 218px 25px 0;
+        &:hover {
+					background-color: #a09578;
+					cursor: pointer;
+				}
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.price {
+  font-family: "Merriweather", serif;
+  background-color: #000;
+  text-align: center;
+  padding-bottom: 70px;
+  &-block {
+    margin: 0 15px;
+    color: #fff;
+    &__title {
+      padding-top: 70px;
+      letter-spacing: 2px;
+      color: #bdae82;
+      margin: 0;
+      padding-bottom: 50px;
+      font-size: 40px;
+    }
+    &__rates {
+      display: flex;
+      justify-content: center;
+      padding: 0 30px;
+      &-item {
+        border: 1px solid #bdae82;
+        padding: 50px 30px;
+        margin: 10px;
+        width: 100%;
+        &__title {
+          margin: 0;
+          font-weight: 500;
+        }
+        &__cost {
+          color: #bdae82;
+        }
+        &__description {
+          font-family: "Inter", serif;
+          font-family: "Inter", serif;
+          font-size: 15px;
+          line-height: 25px;
+          font-weight: 100;
+        }
+        &__btn {
+          font-family: "Inter", serif;
+          background: #bdae82;
+          color: #000;
+          border: 1px solid;
+          padding: 10px 23px;
+          font-size: 14px;
+          margin: 20px 0 0;
+          font-weight: 600;
+          &:hover {
+            background-color: #a09578;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
